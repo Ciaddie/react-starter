@@ -12,6 +12,11 @@ class App extends React.Component {
     return(
     <div>
       <h1>MovieList</h1>
+      <div>
+        <input type="search" id="search" name="name" placeholder="Search..."></input>
+        <button>Go!</button>
+
+      </div>
       <ul>
         <li>{movies[0].title}</li>
         <li>{movies[1].title}</li>
